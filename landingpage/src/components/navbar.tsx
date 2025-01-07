@@ -1,6 +1,6 @@
 import React from "react";
 
-export default function Home() {
+export default function Nav() {
   return (
     <div style={{ margin: 0, fontFamily: "Arial, sans-serif" }}>
       {/* Navigation Bar */}
@@ -47,8 +47,8 @@ export default function Home() {
         </div>
       </nav>
 
-      {/* Page Sections */}
-      <div
+     
+      {/* <div
         id="products"
         style={{ padding: "50px", textAlign: "center", backgroundColor: "#f5f5f5" }}
       >
@@ -81,7 +81,7 @@ export default function Home() {
       >
         <h2>About Us</h2>
         <p>We aim to make EV charging accessible and efficient for everyone.</p>
-      </div>
+      </div> */}
     </div>
   );
 }
