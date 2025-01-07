@@ -1,0 +1,42 @@
+/* Footer.module.css */
+.footer {
+    background-color: #1a1a1a; /* Dark gray */
+    color: #ffffff; /* White text */
+    padding: 2rem 0;
+  }
+  
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 2rem;
+    padding: 0 1rem;
+  }
+  
+  .section {
+    flex: 1;
+    min-width: 200px;
+  }
+  
+  .title {
+    font-size: 1.125rem;
+    font-weight: 600;
+    margin-bottom: 0.5rem;
+  }
+  
+  .link {
+    color: inherit;
+    text-decoration: none;
+  }
+  
+  .link:hover {
+    color: #22c55e; /* Tailwind green-400 */
+  }
+  
+  .bottomNote {
+    text-align: center;
+    font-size: 0.875rem;
+    margin-top: 2rem;
+  }
+  
